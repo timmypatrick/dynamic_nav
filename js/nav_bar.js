@@ -6,7 +6,7 @@
 //     });
 // });
 
-fetch("/nav_bar/nav_bar.html")
+fetch("../nav_bar/nav_bar.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("nav_bar").innerHTML = data;
