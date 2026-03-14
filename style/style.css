@@ -1,35 +1,33 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: green;
-  color: #fff;
-  padding: 0px 10px;
 }
 
-nav ul {
+header {
+  background: green;
   color: white;
+  padding: 15px 50px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  list-style: none;
-  margin: 30px 0px 50px;
 }
 
-nav a {
+header a {
   color: white;
   text-decoration: none;
-  margin-left: 15px;
-  font-size: 20px;
-  font-weight: bold;
+  margin-left: 20px;
 }
 
-nav a:hover {
-  color: orange;
+header a:hover {
+  color: #00c3ff;
 }
 
 footer {
-  background: #222;
+  background: green;
   color: white;
   text-align: center;
-  padding: 15px;
-  margin-top: 50px;
+  padding: 20px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
